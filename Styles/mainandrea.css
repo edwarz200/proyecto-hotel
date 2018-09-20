@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+}
+
+.login-wrap {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 66px 20px 20px 235px;
+    position: relative;
+    line-height: 43px;
+}
+
+user agent stylesheet div {
+    display: block;
+}
+
+.p-ini{
+    background-color: seashell;
+}
+
+
+body {
+    /* background: url(../assets/hotelplaya.jpeg) center center; */
+    background-position: center;
+    color: #9396A4;
+}
+body {
+    color: black;
+}
+html {
+    font-family: 'Lato', 'Lucida Grande', 'Lucida Sans Unicode', Tahoma, Sans-Serif;
+    line-height: 1.5;
+    font-size: 15px;
+    font-weight: 400;
+}
+html {
+    font-family: 'Lato', 'Lucida Grande', 'Lucida Sans Unicode', Tahoma, Sans-Serif;
+    line-height: 1.5;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+h2{
+    font-size: 41px;
+    text-align: justify;
+    margin-top: 0px;
+}
+
+
+
+.text{
+    border-color: #121313;
+    border-radius: 20px;
+    width: 200px;
+    height: 30px;
+
+}
+
+
+.field{
+
+}
+
+.password-link{
+
+}
+
+
+.login-password-field{
+    font-size: 20px;
+}
+
+.password{
+    border-color: black;
+    border-radius: 30px;
+    width: 200px;
+    height: 30px;
+
+}
+
+.btn-inis{
+    text-align: center;
+    background-color: #787859;
+    width: 145px;
+    height: 40px;
+    font-size: 19px;
+    left: 24px;
+    top: 20px;
+}
