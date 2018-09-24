@@ -1,53 +1,55 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>Formulario</title>
     <meta charset="utf-8">
-    <link type="text/css" href="./../Styles/main_registro.css" rel="stylesheet" />
+    <link type="text/css" href="../Styles/main_registro.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../materialize/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
- 
+
 <body>
-    <div id="registrar">
-            <a href="../login.html">Regresar</a>
-    </div>
-    <div id="envoltura">
-        <div id="contenedor">
- 
-            <div id="cabecera">
-              <h1>REGISTRO</h1>
+    <div id="" class="contenedor row">
+        <section class="imgfondo"></section>
+        <div class="regresar .hide-on-small-only">
+            <a href="../login.html" class="btn-small black left"><i class="material-icons pink-text text-lighten-5">arrow_back</i></a>
+        </div>
+
+        <div id="" class="envoltura col xl4 l5 s9">
+            <div id="" class="blue cabecera">
+                <h5>REGISTRO</h5>
             </div>
- 
-            <div id="cuerpo">
- 
-                <form id="form-login" action="#" method="post" >
+            <div id="" class="cuerpo gray">
+                <form id="form-login" action="#" class="row">
+                        <p><label for="dni">Documento:</label></p>
+                        <input name="dni" type="text" id="dni" class="dni dni" placeholder="Digite su Documento o cedula" ></p>
                     <p><label for="nombre">Nombre:</label></p>
-                        <input name="nombre" type="text" id="nombre" class="nombre name " placeholder="Digite tu nombre" autofocus=""/ ></p>
- 
-                    <!--=============================================================================================-->
-                    <!--La sisguientes 2 líneas son para agregar campos al formulario con sus respectivos labels-->
-                    <!--Puedes usar tantas como necesites-->
+                    <input name="nombre" type="text" id="nombre" class="nombre namer" placeholder="Digite su nombre"></p>
                     <p><label for="apellidos">Apellidos:</label></p>
-                        <input name="apellidos" type="text" id="apellidos" class="apellidos apelli" placeholder="Digite tus apellidos" /></p>
-                    <!--=============================================================================================-->
- 
+                    <input name="apellidos" type="text" id="apellidos" class="apellidos apellir" placeholder="Digite sus apellidos" /></p>
+                    <p><label for="telefono">Telefono:</label></p>
+                    <input name="telefono" type="text" id="telefono" class="telefono" placeholder="Digite su telefono" /></p>
                     <p><label for="correo">Correo:</label></p>
-                        <input name="correo" type="text" id="correo" class="email correo" placeholder="Digite tu mail" /></p>
- 
-                    <p><label for="pass">Password:</label></p>
-                        <input name="pass" type="password" id="pass" class="pass contraseña " placeholder="Digite tu contraseña"/ ></p>
- 
-                    <p><label for="repass">Repetir Password:</label></p>
-                        <input name="repass" type="password" id="repass" class="repass  recontraseña" placeholder="Repetir contraseña" /></p>
- 
-                    <p id="bot"><a href="login.html">Iniciar Session</a></p>
+                    <input name="correo" type="text" id="correo" class="email correor" placeholder="Digite su e-mail" /></p>
+                    <p><label for="pass">Contraseña:</label></p>
+                    <input name="pass" type="password" id="pass" class="pass contraseñar" placeholder="Digite una contraseña"></p>
+                    <p><label for="repass">Repetir Contraseña:</label></p>
+                    <input name="repass" type="password" id="repass" class="repass  recontraseñar" placeholder="Repetir contraseña" /></p>
+                    <p id="bot"><a class="btn btnrgistro pink ">Registrarse</a></p>
                 </form>
             </div>
- 
-            <div id="pie">Sistema de Login Y Registro</div>
+            <div id="" class="pie gray col m12">Sistema de Login Y Registro</div>
         </div><!-- fin contenedor -->
- 
     </div>
- 
+
+    <script src="https://www.gstatic.com/firebasejs/5.4.2/firebase.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <script src="../materialize/js/materialize.min.js"></script>
+    <script src="../Js/BDmain.js"></script>
+    <script src="../Js/mained.js"></script>
+    <script src="../Js/main.js"></script>
 </body>
- 
+
 </html>
